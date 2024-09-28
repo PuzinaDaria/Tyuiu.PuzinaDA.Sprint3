@@ -16,7 +16,7 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task0.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл for, которая вычисляет сумму ряда по  *");
-            Console.WriteLine("* по формуле, при x = 4                                                   *");
+            Console.WriteLine("* формуле, при x = 4                                                      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
