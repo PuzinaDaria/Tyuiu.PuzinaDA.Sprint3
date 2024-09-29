@@ -12,7 +12,7 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task5.V8.Lib
                 res2 = res2 + res1;
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    res1 = res1 + (1 / Math.Sin(j) + 3);
+                    res1 = res1 + (1.0 / Math.Sin(j) + 3);
                 }
             }
             return Math.Round(res2, 3);
