@@ -28,13 +28,12 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task7.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            int len = stopValue - startValue + 1;
-            double[] res = new double[len];
+            double[] res = new double[11];
             res = ds.GetMassFunction(startValue, stopValue);
             Console.WriteLine("+---------+----------+");
             Console.WriteLine("|    x    |    F(x)  |");
             Console.WriteLine("+---------+----------+");
-            for (int i = 0; i < len; i++)
+            for (int i = 0; i < 11; i++)
             {
                 Console.WriteLine("|{0, 5:d}    |  {1, 5:f2}   |", startValue, res[i]);
                 startValue++;

@@ -9,8 +9,7 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task7.V8.Test
         {
             DataService ds = new DataService();
             int startValue = -5, stopValue = 5;
-            int len = stopValue - startValue + 1;
-            double[] res = new double[len];
+            double[] res = new double[11];
             res[0] = -8.86;
             res[1] = -7.19;
             res[2] = -6.14;
@@ -22,7 +21,7 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task7.V8.Test
             res[8] = 6.13;
             res[9] = 7.07;
             res[10] = 8.61;
-            double[] wait = new double[len];
+            double[] wait = new double[11];
             wait = ds.GetMassFunction(startValue, stopValue);
             CollectionAssert.AreEqual(res, wait);
         }
