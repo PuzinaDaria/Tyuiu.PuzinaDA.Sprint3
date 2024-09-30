@@ -5,7 +5,8 @@ namespace Tyuiu.PuzinaDA.Sprint3.Task7.V8.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] res = new double[11];
+            int len = stopValue - startValue + 1;
+            double[] res = new double[len];
             int count = 0;
             for(int i = startValue; i <= stopValue; i++)
             {
